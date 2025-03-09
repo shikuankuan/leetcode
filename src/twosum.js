@@ -27,6 +27,7 @@ var twoSum = function (nums, target) {
       sumNums.shift();
       unShiftNum += 1;
     }
+    console.log(111)
     return targetArr;
   };
 

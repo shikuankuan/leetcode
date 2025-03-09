@@ -4,7 +4,9 @@
   "description": "算法刷题",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,22 @@
   "bugs": {
     "url": "https://github.com/shikuankuan/leetcode/issues"
   },
-  "homepage": "https://github.com/shikuankuan/leetcode#readme"
+  "homepage": "https://github.com/shikuankuan/leetcode#readme",
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "style-loader": "^4.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^4.15.2"
+  },
+  "dependencies": {
+    "rm": "^0.1.8"
+  }
 }
