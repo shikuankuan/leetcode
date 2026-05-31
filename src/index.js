@@ -7,11 +7,12 @@ import convert from './convert';
 import reverse from './reverse';
 import myAtoi from './myAtoi';
 import isPalindrome from './isPalindrome';
+import isMatch from './10IsMatch';
 
 if (module.hot) {
   module.hot.accept(); // 启用热更新
 }
-  
+
 console.log("twoSum", twoSum([2, 7, 11, 15], 9));
 let l11 = new ListNode(2);
 l11.next = new ListNode(4);
@@ -25,8 +26,8 @@ console.log(
   "lengthOfLongestSubstring",
   lengthOfLongestSubstring("wertdgfdsfddfgfs")
 );
-let arr1 = [1,3,5];
-let arr2 = [1,5];
+let arr1 = [1, 3, 5];
+let arr2 = [1, 5];
 // console.log('25findMedianSortedArrays', findMedianSortedArrays(arr1,arr2))
 // console.log('27longestPalindrome',longestPalindrome('abccba'))
 // console.log('27longestPalindrome',longestPalindrome('bb'))
@@ -37,9 +38,9 @@ let arr2 = [1,5];
 // console.log('reverse', reverse(12334))
 // console.log(" -042", myAtoi(" -042"))
 // console.log("   +0 123", myAtoi("   +0 123"))
-console.log("isPalindrome",311113, isPalindrome(311113))
-console.log("isPalindrome",1, isPalindrome(1))
-console.log("isPalindrome",11, isPalindrome(11))
-console.log("isPalindrome",-1, isPalindrome(-1))
+console.log("isPalindrome", 311113, isPalindrome(311113))
+console.log("isPalindrome", 1, isPalindrome(1))
+console.log("isPalindrome", 11, isPalindrome(11))
+console.log("isPalindrome", -1, isPalindrome(-1))
 
-console.log("isPalindrome",12321, isPalindrome(12321))
+console.log("isPalindrome", 12321, isPalindrome(12321))
